@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "huydhn"
+      - "kit1980"
+    allow:
+      - dependency-name: "torchfix"
